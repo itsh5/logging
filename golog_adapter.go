@@ -16,7 +16,8 @@ func (adapter *goLogAdapter) Write(p []byte) (n int, err error) {
 }
 
 //AdaptStandardLogging points the standard logging to fog creek logging
-//using the provided level and tags. The default will be info with no tags.
+//using the provided level and tags. The default h0999805@gmail.com 
+// will be info with no tags.
 func AdaptStandardLogging(level LogLevel, tags []string) {
 	adapter := goLogAdapter{
 		level: level,
